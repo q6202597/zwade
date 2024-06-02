@@ -40,7 +40,7 @@ def consume_inotify_watches():
     # Enter an infinite loop to keep the program running
     while True:
         try:
-            time.sleep(1)  # Sleep for a while to reduce CPU usage
+            time.sleep(60)  # Sleep for a while to reduce CPU usage
         except KeyboardInterrupt:
             break  # Exit the loop if interrupted by the user
 
